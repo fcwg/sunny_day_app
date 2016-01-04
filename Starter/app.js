@@ -29,7 +29,7 @@ weatherApp.config(function($routeProvider) {
 //SERVICES
 
 weatherApp.service('cityService', function() {
-	this.city = "Oakland, CA";
+	this.city = "San Francisco, CA";
 })
 
 
