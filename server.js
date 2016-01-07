@@ -7,7 +7,7 @@ app.use(express.logger());
 // });
 
 app.get('/', function(req, res) {
-	res.sendFile(__dirname + '/index.htm');
+	res.sendfile(__dirname + '/index.htm');
 });
 
 var port = process.env.PORT || 5000;
